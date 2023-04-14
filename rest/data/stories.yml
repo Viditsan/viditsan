@@ -1,0 +1,87 @@
+version: '3.1'
+stories:
+  - story: happy path
+    steps:
+      - intent: greet
+      - action: utter_greet
+  - story: Ordering Food 2
+    steps:
+      - intent: Order_Food
+      - action: utter_Order_Food
+  - story: Ordering Food 3
+    steps:
+      - intent: Types
+      - action: utter_Types
+  - story: Ordering Food 4
+    steps:
+      - intent: Types_1
+      - action: utter_Types_1
+  - story: Ordering Food 5
+    steps:
+      - intent: Foodprice
+      - action: utter_Foodprice
+  - story: Ordering Food 6
+    steps:
+      - intent: Foodprice_1
+      - action: utter_Foodprice_1
+  - story: Ordering Food 7
+    steps:
+      - intent: Foodprice_2
+      - action: utter_Foodprice_2
+  - story: Ordering Food 8
+    steps:
+      - intent: Foodprice_3
+      - action: utter_Foodprice_3
+  - story: Ordering Food 9
+    steps:
+      - intent: Foodprice_4
+      - action: utter_Foodprice_4
+  - story: Ordering Food 10
+    steps:
+      - intent: Foodprice_5
+      - action: utter_Foodprice_5
+  - story: Ordering Food 11
+    steps:
+      - intent: Foodprice_6
+      - action: utter_Foodprice_6
+  - story: Ordering Food 12
+    steps:
+      - intent: Foodprice_7
+      - action: utter_Foodprice_7
+  - story: Ordering Food 13
+    steps:
+      - intent: Foodprice_8
+      - action: utter_Foodprice_8
+  - story: Ordering Food 14
+    steps:
+      - intent: Foodprice_9
+      - action: utter_Foodprice_9
+  - story: Ordering Food 15
+    steps:
+      - intent: Foodprice_10
+      - action: utter_Foodprice_10
+  - story: Ordering Food 16
+    steps:
+      - intent: Foodprice_11
+      - action: utter_Foodprice_11
+  - story: Ordering Food 17
+    steps:
+      - intent: Types_2
+      - action: utter_Types_2
+  - story: Ordering Food 18
+    steps:
+      - intent: ok
+      - action: utter_ok
+  - story: Ordering Food 19
+    steps:
+      - intent: no
+      - action: utter_no
+  - story: Ordering Food 20
+    steps:
+      - intent: yes
+      - action: utter_yes
+  - story: Ordering Food 21
+    steps:
+      - intent: Types_3
+      - action: utter_Types_3
+    

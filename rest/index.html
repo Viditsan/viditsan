@@ -1,0 +1,41 @@
+<html>
+    <body>
+      <style>
+        .rw-conversation-container .rw-header{background-color: #0437F2
+
+};
+
+      </style>
+      <title>css</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+       
+       <div class="background">
+      </div>
+        <script>!(function () {
+            let e = document.createElement("script"),
+              t = document.head || document.getElementsByTagName("head")[0];
+            (e.src =
+              "https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.js"),
+             
+              (e.async = !0),
+              (e.onload = () => {
+                window.WebChat.default(
+                  {
+                    initPayload: '/greet',
+                    customData: { language: "en" },
+                    socketUrl: "http://localhost:5005",
+                    title: 'Rasa ChatBot',
+                    subtitle: 'Welcome to our Restaurnat ChatBot',
+                    profileAvatar: "robot.svg",
+                    showFullScreenButton: true,
+                    showMessageDate: true
+                    
+                  },
+                  null
+                );
+              }),
+              t.insertBefore(e, t.firstChild);
+          })();
+          </script>
+    </body>
+</html>

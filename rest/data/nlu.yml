@@ -1,0 +1,134 @@
+---
+version: "3.1"
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+      
+  - intent: Order_Food
+    examples: |
+      - What kind of dishes would you like to have?
+      - What types of cuisines do you serve?
+      - can i get the menu please?
+      - whats in the menu?
+      - menu please
+      - what can i have to eat?
+      - I want to order something
+      
+  - intent: Types
+    examples: |
+      - What option do you have in Non-veg?
+      - What dishes do you have in non-veg?
+      - Non veg food.
+      
+  - intent: Types_1
+    examples: |
+      - What option do you have in veg?
+      - What dishes do you have in veg?
+      - veg food.
+      
+  - intent: Types_2
+    examples: |
+      - What option do you have in lunch?
+      - What dishes do you have in lunch?
+      - lunch
+      - what is there in lunch?
+      
+  - intent: Foodprice
+    examples: |
+      - Chi stu fry
+      - Can i have a full plate of Chi stu fry
+      
+  - intent: Foodprice_1
+    examples: |
+      - chi masala
+      - Can i have a full plate of Chi masala
+      
+  - intent: Foodprice_2
+    examples: |
+      - chi fry
+      - Can i have a full plate of Chi fry
+      
+  - intent: Foodprice_3
+    examples: |
+      - chi soup
+      - Can i have a full plate of Chi soup
+      
+  - intent: Foodprice_4
+    examples: |
+      - chi manchow soup
+      - Can i have a full plate of Chi manchow soup
+      
+  - intent: Foodprice_5
+    examples: |
+      - chi lollypop
+      - Can i have a full plate of lollypop
+      
+  - intent: Foodprice_6
+    examples: |
+      - chana masala
+      - Can i have a full plate of chana masala
+      
+  - intent: Foodprice_7
+    examples: |
+      - panner curry
+      - Can i have a full plate of panner curry
+      
+  - intent: Foodprice_8
+    examples: |
+      - bombay potatos
+      - Can i have a full plate of bombay potatos
+      
+  - intent: Foodprice_9
+    examples: |
+      - dal fry
+      - Can i have a full plate of dal fry
+      
+  - intent: Foodprice_10
+    examples: |
+      - rajma masala
+      - Can i have a full plate of rajma masala
+      
+  - intent: Foodprice_11
+    examples: |
+      - sambar
+      - Can i have a full plate of sambar
+      
+  - intent: ok
+    examples: |
+      - ok
+      - yup
+      - make it fast
+      
+  - intent: no
+    examples: |
+      - no
+      - nope
+
+  - intent: yes
+    examples: |
+      - yes
+      - yeah
+
+  - intent: Types_3
+    examples: |
+      - Briyani
+      - I want Briyani
+      - do you serve briyani?
+
+      
+
+
+

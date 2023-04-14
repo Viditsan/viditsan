@@ -1,0 +1,82 @@
+version: '3.1'
+intents:
+  - greet
+  - Order_Food
+  - Types
+  - Types_1
+  - Types_2
+  - Types_3
+  - Foodprice
+  - Foodprice_1
+  - Foodprice_2
+  - Foodprice_3
+  - Foodprice_4
+  - Foodprice_5
+  - Foodprice_6
+  - Foodprice_7
+  - Foodprice_8
+  - Foodprice_9
+  - Foodprice_10
+  - Foodprice_11
+  - ok
+  - no
+  - yes
+
+responses:
+
+  utter_greet:
+    - text: Hello, Can I help you?
+  utter_cheer_up:
+    - text: 'Here is something to cheer you up:'
+      image: 'https://i.imgur.com/nGF1K8f.jpg'
+  utter_did_that_help:
+    - text: Did that help you?
+  utter_happy:
+    - text: 'Great, carry on!'
+  utter_goodbye:
+    - text: Bye
+  utter_iamabot:
+    - text: 'I am a bot, powered by Rasa.'
+  utter_Order_Food:
+    - text: 'We serve a variety of cuisines, including Veg, Non-Veg, Chinese, Briyani and Lunch.'
+  utter_Types:
+    - text: chicken stu fry, chicken masala, chicken fry, chicken soup, chicken manchow soup,
+        chicken lollypop
+  utter_Types_1:
+    - text: we serve chana masala, panner CURRY, bombay POTATOES, dal fry, rajma masala, sambar
+  utter_Foodprice:
+    - text: It will be RS.120 
+  utter_Foodprice_1:
+    - text: It will be RS.140 
+  utter_Foodprice_2:
+    - text: It will be RS.200
+  utter_Foodprice_3:
+    - text: It will be RS.80
+  utter_Foodprice_4:
+    - text: It will be RS.100 
+  utter_Foodprice_5:
+    - text: It will be RS.180 
+  utter_Foodprice_6:
+    - text: It will be RS.120 
+  utter_Foodprice_7:
+    - text: It will be RS.140 
+  utter_Foodprice_8:
+    - text: It will be RS.200
+  utter_Foodprice_9:
+    - text: It will be RS.80
+  utter_Foodprice_10:
+    - text: It will be RS.100 
+  utter_Foodprice_11:
+    - text: It will be RS.180 
+  utter_Types_2:
+    - text: we serve Easy Wraps and Sandwiches, SoupRice , Salads, Sushi rolls.
+  utter_ok:
+    - text: Any thing more would you like to have maam? 
+  utter_no:
+    - text: Ok maam have a good day.
+  utter_yes:
+    - text: Ok, may i have your order please.
+  utter_Types_3:
+    - text: We serve many more dishes... Please check our menu.
+session_expiration_time: 60
+carry_over_slots_to_new_session: true
